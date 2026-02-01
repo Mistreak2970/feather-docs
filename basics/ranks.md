@@ -12,7 +12,7 @@ To navigate to the Ranks UI, go to Config UI and click "Ranks"
 
 Ranks in Feather are extremely easy to configure. Click the "Add" button to get started!
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Once you have clicked "Add" you show now see a Modal Form containing 5 fields.
 
