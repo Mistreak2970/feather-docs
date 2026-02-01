@@ -1,6 +1,6 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/cherry_grove edit with big logo.png
+cover: .gitbook/assets/cherry_grove-edit-with-big-logo.png
 coverY: 0
 ---
 
