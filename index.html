@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Feather Docs</title>
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
-    <base href="/feather-docs/">
     <style>
       :root {
         --bg: #0f1720;
@@ -25,12 +24,34 @@
       }
 
       .sidebar {
-        background: linear-gradient(180deg, rgba(12,16,24,1), rgba(8,10,16,1)) !important;
-        border-right: 1px solid rgba(255,255,255,0.03);
+        width: 260px;
+        padding-top: 12px;
+        background: linear-gradient(180deg, rgba(12,16,24,0.98), rgba(6,8,12,0.98)) !important;
+        border-right: 1px solid rgba(255,255,255,0.04);
+        box-shadow: 8px 0 30px rgba(2,6,23,0.6);
       }
 
-      .sidebar a, .sidebar a:visited { color: var(--muted); }
-      .sidebar a:hover { color: var(--text); }
+      .sidebar .logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 18px;
+        margin-bottom: 6px;
+      }
+
+      .sidebar .logo img {
+        height: 40px;
+        width: 40px;
+        object-fit: contain;
+        border-radius: 8px;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+      }
+
+      .sidebar .logo h3 { margin: 0; font-size: 16px; color: var(--text); }
+
+      .sidebar a, .sidebar a:visited { color: var(--muted); padding: 8px 18px; display: block; border-left: 4px solid transparent; }
+      .sidebar a:hover { color: var(--text); background: rgba(255,255,255,0.01); }
+      .sidebar a.active { color: var(--text); border-left-color: var(--accent); background: linear-gradient(90deg, rgba(124,92,255,0.06), transparent); }
 
       .markdown-section {
         background: transparent;
@@ -57,10 +78,14 @@
         subMaxLevel: 2,
         basePath: '/feather-docs',
         crossOriginLinks: ['https://'],
-        themeColor: '#6c5ce7'
+        themeColor: '#6c5ce7',
+        search: {
+          placeholder: 'Search the docs'
+        }
       };
     </script>
 
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>
