@@ -8,7 +8,7 @@ icon: sliders-up
 
 Configuring Feather Essentials is easy, just go to the Config UI and click Modules.
 
-<figure><img src="/.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Options
 
@@ -20,7 +20,7 @@ Language: Switch languages between Portuguese, Spanish and English.
 
 /pay: Decide if your players can use the /pay command.
 
-<figure><img src="/.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Click "Submit" when you are ready and have selected your modules.
 
