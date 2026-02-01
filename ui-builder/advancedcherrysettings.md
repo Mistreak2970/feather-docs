@@ -1,5 +1,5 @@
 ---
-icon: settings
+icon: gear
 ---
 
 # Advanced CherryUI Settings
