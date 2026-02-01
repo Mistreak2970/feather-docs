@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Feather Docs</title>
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+    <style>
+      html {
+        color-scheme: dark;
+      }
+      body {
+        background: #1e1e1e;
+        color: #e0e0e0;
+      }
+      .sidebar {
+        background-color: #252526 !important;
+      }
+      .sidebar-toggle {
+        background: #252526;
+      }
+      .markdown-section {
+        background: #1e1e1e;
+        color: #e0e0e0;
+      }
+      .markdown-section img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -14,7 +38,10 @@
         name: 'Feather Docs',
         repo: 'FeatherUtils/feather-docs',
         loadSidebar: true,
-        subMaxLevel: 2
+        subMaxLevel: 2,
+        basePath: '/',
+        crossOriginLinks: ['https://'],
+        themeColor: '#6c5ce7'
       };
     </script>
 
